@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081B31;
+    height: 5rem;
+    font-size: 3rem;
+    color: white;
+    line-height: 5rem;
+}
+
+.container{
+    /* border: 1px #081B31; */
+    border: .5rem dashed #081B31;
+    /* background-color: aqua; */
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+.choices{
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.choice{
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081B31;
+}
+img{
+    
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nme{
+    font-size: 2rem;
+}
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+#userScore, #compScore{
+    font-size: 4rem;
+}
+
+.msg{
+    margin: 4rem;
+}
+
+#result{
+    background-color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem ;
+    color: black;
+    border: 1px solid;
+}
+
+#resetBtn{
+    background-color: #081B31;
+    font-size: 2rem;
+    padding: .5rem 3rem;
+    color: #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#resetBtn:hover{
+    opacity: 0.9;
+}
+
+/* @media (width<=500px) {
+    body{
+        background-color: red;
+    }
+    img{
+        width: 20px;
+        aspect-ratio: 1;
+    }
+} */
